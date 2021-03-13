@@ -8,7 +8,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-class dateserver {
+class DateServer {
     public static void main(String args[]) {
 
         ServerSocket ss;
