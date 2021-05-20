@@ -2,6 +2,20 @@
     Experiment 05
     Creation of UDP Server
         - Client Side Program
+
+    How to Execute:
+    1. In the LHS:
+        javac Server_UDP.java
+    2. In the RHS:
+        javac Client_UDP.java
+    3. In the LHS:
+        java Server_UDP
+    4. In the RHS:
+        java Client_UDP
+
+    Start typing out only in the Server side.
+    You can see that the same thing will be printed in the Client side.
+    To stop execution, type `end` in the server side.
 */
 
 import java.net.*;

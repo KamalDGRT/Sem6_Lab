@@ -1,6 +1,9 @@
 /*
     Experiment 01
     Finding the IP Address of a machine/system
+    How to execute:
+    1. javac ipclient.java
+    2. java ipclient
 */
 
 import java.net.*; 

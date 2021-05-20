@@ -2,6 +2,19 @@
     Experiment 07
     Creation of TELNET Protocol
         - Client Side Program
+
+    How to Execute:
+    1. In the LHS:
+        javac ServerTelnet.java
+    2. In the RHS:
+        javac ClientTelnet.java
+    3. In the LHS:
+        java ServerTelnet
+    4. In the RHS:
+        java ClientTelnet
+
+    Input to be given in the Client Side.
+    Output will be printed on the Server Side.
 */
 
 import java.net.*;

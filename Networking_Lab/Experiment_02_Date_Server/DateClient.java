@@ -2,6 +2,17 @@
     Experiment 02
     Creation of Date Server
         - Client Side Program
+    How to Execute:
+    1. In the LHS:
+        javac DateServer.java
+    2. In the RHS:
+        javac DateClient.java
+    3. In the LHS:
+        java DateServer
+    4. In the RHS:
+        java DateClient
+
+    The Date will be printed on the Client Side.
 */
 
 import java.io.*;

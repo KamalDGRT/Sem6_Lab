@@ -2,8 +2,20 @@
     Experiment 09
     Creation of FTP using TCP
         - Client Side Program
-    Nothing to be done here.
+
+    How to Execute:
+    1. In the LHS:
+        javac ServerFTPTCP.java
+    2. In the RHS:
+        javac ClientFTPTCP.java
+    3. In the LHS:
+        java ServerFTPTCP
+    4. In the RHS:
+        java ClientFTPTCP
+
     Input to be given in the Server Side.
+    Enter the file name to be opened. Ex. list.txt
+    Contents of that file will be printed on the Client side.
 */
 
 import java.net.*;
@@ -19,6 +31,8 @@ public class ClientFTPTCP {
                                     )
                                 );
             String str;
+            System.out.println("Receiving the file from server....");
+            System.out.println("The Contents of the file is :\n");
             while((str = br.readLine()) != null)
                 System.out.println(str);
         }

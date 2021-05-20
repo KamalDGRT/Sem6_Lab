@@ -2,6 +2,18 @@
     Experiment 04
     Creation of Chat Server
         - Client Side Program
+
+    How to Execute:
+    1. In the LHS:
+        javac ChatServer.java
+    2. In the RHS:
+        javac ChatClient.java
+    3. In the LHS:
+        java ChatServer
+    4. In the RHS:
+        java ChatClient
+
+    Start typing in the LHS and RHS to see the output.
 */
 
 import java.net.*;

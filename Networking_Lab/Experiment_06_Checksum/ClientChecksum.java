@@ -5,6 +5,18 @@
     # Client passes the command line arguments
     # javac ClientChecksum.java
     # java ClientChecksum Arg1 Arg2
+
+    How to Execute:
+    1. In the LHS:
+        javac ServerChecksum.java
+    2. In the RHS:
+        javac ClientChecksum.java
+    3. In the LHS:
+        java ServerChecksum
+    4. In the RHS:
+        java ClientChecksum Hello World How Are You
+
+    The Output will be printed on the Server Side.
 */
 
 import java.net.*;

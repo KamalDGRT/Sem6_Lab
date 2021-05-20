@@ -2,8 +2,20 @@
     Experiment 10
     Creation of FTP using UDP
         - Client Side Program
-    Nothing to be done here.
+
+    How to Execute:
+    1. In the LHS:
+        javac ServerFTPUDP.java
+    2. In the RHS:
+        javac ClientFTPUDP.java
+    3. In the LHS:
+        java ServerFTPUDP
+    4. In the RHS:
+        java ClientFTPUDP
+
     Input to be given in the Server Side.
+    Enter the file name to be opened. Ex. list.txt
+    Contents of that file will be printed on the Client side.
 */
 
 import java.net.*;
